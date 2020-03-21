@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Vertex structure
 type Vertex struct {
 	Lat, Long float64
 }
@@ -15,6 +16,9 @@ var m = map[string]Vertex{
 	},
 }
 
+var m2 = map[int]string{1: "one", 2: "two", 3: "three"}
+
 func main() {
 	fmt.Println(m)
+	fmt.Println(m2)
 }
